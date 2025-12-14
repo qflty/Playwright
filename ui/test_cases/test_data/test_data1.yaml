@@ -1,0 +1,26 @@
+# 代码扫描方案用例
+test_cases:
+  - tab: "扫描方案"  # tab
+    plan_name: "扫描方案A-"  # 方案名称
+    description: "自动化创建1"  # 描述
+    languages:  # 语言
+      - "Go"
+      - "Python"
+    add_paths:  # 添加路径
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
+    del_paths:  # 删除路径
+      - "**/*.js"
+      - "**/*.java"
+    is_default: true  # 是否设为默认
+    is_del: false  # 是否删除方案
+
+  - tab: "扫描方案"
+    plan_name: "扫描方案B-"
+    description: "自动化创建2"
+    languages:
+      - "Go"
+      - "JavaScript"
+    is_default: false
+    is_del: true

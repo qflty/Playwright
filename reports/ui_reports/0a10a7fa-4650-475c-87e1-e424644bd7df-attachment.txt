@@ -1,0 +1,39 @@
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:77 打开URL: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:16 已打开页面: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:26 已点击登录按钮
+[32mINFO    [0m utils.logger:login_page.py:36 已点击我知道了按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤1、登录devops - 成功_screenshot_20250928_190338_999b1a3cec8344399a0ecf6062cc8b3d.png
+[32mINFO    [0m utils.logger:navigation_page.py:20 已点击代码按钮
+[32mINFO    [0m utils.logger:navigation_page.py:27 已点击代码扫描按钮
+[32mINFO    [0m utils.logger:navigation_page.py:48 已切换到tab: 扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤2、导航到代码扫描 - 扫描方案 - 成功_screenshot_20250928_190345_d78d2c1b44e549dcacabe914e047c8ec.png
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:17 开始创建扫描方案:
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:23 已输入方案名称: 扫描方案A-1814
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:28 已输入方案描述: 自动化创建1
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:36 已选择语言: Go
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:46 选择Go语言规则集成功
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:36 已选择语言: Python
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:46 选择Python语言规则集成功
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:56 设为默认成功
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:64 已点击确定按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤3、创建扫描方案 - 成功_screenshot_20250928_190355_54dc545120004e5a9dc1b51e5690b401.png
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:72 已查询到扫描方案: 扫描方案A-1814
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:83 已点击过滤配置tab
+[32mINFO    [0m utils.logger:elements.py:72 已点击添加按钮
+[32mINFO    [0m utils.logger:elements.py:76 已添加过滤路径: **/*.js
+[32mINFO    [0m utils.logger:elements.py:72 已点击添加按钮
+[32mINFO    [0m utils.logger:elements.py:76 已添加过滤路径: **/*.ts
+[32mINFO    [0m utils.logger:elements.py:72 已点击添加按钮
+[32mINFO    [0m utils.logger:elements.py:76 已添加过滤路径: **/*.tsx
+[32mINFO    [0m utils.logger:elements.py:77 已添加所有过滤路径
+[32mINFO    [0m utils.logger:elements.py:251 已点击保存配置
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、添加过滤路径 - 成功_screenshot_20250928_190404_e755f4babb55428ba8d6c931abd97da1.png
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:72 已查询到扫描方案: 扫描方案A-1814
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:102 已删除过滤路径: **/*.js
+[33mWARNING [0m utils.logger:code_scan_plan_page.py:107 未找到过滤路径: **/*.java
+[32mINFO    [0m utils.logger:code_scan_plan_page.py:108 过滤路径删除完成
+[32mINFO    [0m utils.logger:elements.py:251 已点击保存配置
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤5、删除过滤路径 - 成功_screenshot_20250928_190409_799c2b9f3f534c3a93222ea515c2e96c.png
+[33mWARNING [0m utils.logger:code_scan_plan_creator.py:68 不删除扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤6、删除扫描方案 - 成功_screenshot_20250928_190410_0a172a18267b4c5186f067012757c351.png
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:93 浏览器已成功关闭

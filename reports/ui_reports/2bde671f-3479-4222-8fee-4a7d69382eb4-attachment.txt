@@ -1,0 +1,30 @@
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:77 打开URL: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:16 已打开页面: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:26 已点击登录按钮
+[32mINFO    [0m utils.logger:login_page.py:36 已点击我知道了按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤1、登录devops - 成功_screenshot_20250928_190523_4d183f57bcc1405b85a2284c0860b211.png
+[32mINFO    [0m utils.logger:navigation_page.py:20 已点击代码按钮
+[32mINFO    [0m utils.logger:navigation_page.py:27 已点击代码扫描按钮
+[32mINFO    [0m utils.logger:navigation_page.py:48 已切换到tab: 扫描任务
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤2、导航到代码扫描 - 扫描任务 - 成功_screenshot_20250928_190529_65d6a16affd049cba9548bdba2f738a1.png
+[32mINFO    [0m utils.logger:code_scan_task_page.py:18 开始创建扫描任务:
+[32mINFO    [0m utils.logger:elements.py:26 已选择方案: 扫描方案A-8333
+[32mINFO    [0m utils.logger:code_scan_task_page.py:29 已输入任务名称:扫描任务-4148
+[32mINFO    [0m utils.logger:elements.py:43 已选择应用: ship-test-service-01
+[32mINFO    [0m utils.logger:elements.py:57 已选择分支: master
+[32mINFO    [0m utils.logger:elements.py:215 已选择扫描模式: 全量
+[32mINFO    [0m utils.logger:elements.py:125 已设置质量门禁: blocking - 10
+[32mINFO    [0m utils.logger:elements.py:113 质量门禁 serious 未设置值
+[32mINFO    [0m utils.logger:elements.py:125 已设置质量门禁: primary - 30
+[32mINFO    [0m utils.logger:elements.py:125 已设置质量门禁: secondary - 40
+[32mINFO    [0m utils.logger:elements.py:72 已点击添加按钮
+[32mINFO    [0m utils.logger:elements.py:76 已添加过滤路径: **/*.js
+[32mINFO    [0m utils.logger:elements.py:72 已点击添加按钮
+[32mINFO    [0m utils.logger:elements.py:76 已添加过滤路径: **/*.java
+[32mINFO    [0m utils.logger:elements.py:77 已添加所有过滤路径
+[32mINFO    [0m utils.logger:code_scan_task_page.py:83 已打开生成PDF报告
+[32mINFO    [0m utils.logger:elements.py:175 已选择确认按钮: 保存并立即执行
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤3、创建扫描任务 - 成功_screenshot_20250928_190548_9206816300504ff4a5b93070a5eeecb7.png
+[33mWARNING [0m utils.logger:code_scan_task_creator.py:48 不删除扫描任务
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、删除扫描任务 - 成功_screenshot_20250928_190549_071d4f150c8b44489f8a5569e93bbdaa.png
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:93 浏览器已成功关闭

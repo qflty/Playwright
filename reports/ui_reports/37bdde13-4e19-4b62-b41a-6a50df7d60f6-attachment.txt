@@ -1,0 +1,19 @@
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:77 打开URL: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:16 已打开页面: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:26 已点击登录按钮
+[32mINFO    [0m utils.logger:login_page.py:36 已点击我知道了按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤1、登录devops - 成功_screenshot_20250928_185944_53aa406e30dd411292f17d232c192b3c.png
+[32mINFO    [0m utils.logger:navigation_page.py:58 已点击制品按钮
+[32mINFO    [0m utils.logger:navigation_page.py:65 已点击制品扫描按钮
+[32mINFO    [0m utils.logger:navigation_page.py:84 已切换到tab: 扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤2、导航到制品扫描 - 扫描方案 - 成功_screenshot_20250928_185949_61b4697b09844bc98ed38cd7cec281c4.png
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:16 开始创建扫描任务:
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:21 输入扫描方案名称: 扫描方案-8027
+[32mINFO    [0m utils.logger:artifact_scan_plan_creator.py:34 不设为默认方案
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:35 输入扫描方案描述: 自动化创建2
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:41 当前没有可添加的漏洞编号
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:65 已点击确认创建扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤3、创建扫描方案 - 成功_screenshot_20250928_185953_53388fbb1d3c4eeba62e795ee6372126.png
+[33mWARNING [0m utils.logger:artifact_scan_plan_creator.py:47 不删除扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、删除扫描方案 - 成功_screenshot_20250928_185954_146c8562ed1144169a208ade9212bad7.png
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:93 浏览器已成功关闭

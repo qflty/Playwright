@@ -1,0 +1,43 @@
+# 制品扫描任务
+test_cases:
+  - tab: "扫描任务"              # 标签页名称
+    node: "nexus"               # 所属节点类型
+    plan_name: ''                 # 扫描方案名称（留空表示使用默认方案）
+    task_name: "制品扫描任务-"    # 任务名称前缀
+    artifact_type: "docker"     # 制品类型
+    quality_gates:              # 质量门禁设置
+      serious: '10'             # 严重风险阈值
+      high_risk: '20'           # 高风险阈值
+      moderate_risk: '30'       # 中风险阈值
+      low_risk: '40'            # 低风险阈值
+      unrated: '50'             # 未评级风险阈值
+    task_type: "仅保存"          # 任务执行类型
+    is_del: true                # 是否删除该任务
+
+  - tab: "扫描任务"
+    node: "nexus"
+    plan_name: '扫描方案-5082'
+    task_name: "制品扫描任务-"
+    artifact_type: "docker"
+    quality_gates:
+      serious: ''
+      high_risk: '20'
+      moderate_risk: '30'
+      low_risk: '40'
+      unrated: '50'
+    task_type: "保存并立即执行"
+    is_del: false
+
+  - tab: "扫描任务"
+    node: "nexus"
+    plan_name: ''
+    task_name: "制品扫描任务-"
+    artifact_type: "docker"
+    quality_gates:
+      serious: '10'
+      high_risk: '20'
+      moderate_risk: '30'
+      low_risk: '40'
+      unrated: ''
+    task_type: "保存并立即执行"
+    is_del: false

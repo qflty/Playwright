@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>接口自动化测试报告</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .report-container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .report-header { text-align: center; margin-bottom: 30px; }
+        .summary { display: flex; justify-content: space-around; margin-bottom: 30px; text-align: center; }
+        .summary-item { padding: 15px; border-radius: 5px; flex: 1; margin: 0 10px; }
+        .total { background-color: #e3f2fd; }
+        .passed { background-color: #e8f5e9; }
+        .failed { background-color: #ffebee; }
+        .time { background-color: #fff8e1; }
+        .results-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .results-table th, .results-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .results-table th { background-color: #f2f2f2; }
+        .results-table tr:nth-child(even) { background-color: #f9f9f9; }
+        .results-table tr:hover { background-color: #f5f5f5; }
+        .status-passed { color: green; font-weight: bold; }
+        .status-failed { color: red; font-weight: bold; }
+        .details { white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+        <div class="report-header">
+            <h1>接口自动化测试报告</h1>
+            <p>生成时间: 2025-09-24 16:51:18</p>
+        </div>
+
+        <div class="summary">
+            <div class="summary-item total">
+                <h3>总用例数</h3>
+                <p style="font-size: 24px;">3</p>
+            </div>
+            <div class="summary-item passed">
+                <h3>通过用例</h3>
+                <p style="font-size: 24px; color: green;">0</p>
+            </div>
+            <div class="summary-item failed">
+                <h3>失败用例</h3>
+                <p style="font-size: 24px; color: red;">3</p>
+            </div>
+            <div class="summary-item time">
+                <h3>通过率</h3>
+                <p style="font-size: 24px;">0.0%</p>
+            </div>
+            <div class="summary-item time">
+                <h3>总耗时</h3>
+                <p style="font-size: 24px;">233ms</p>
+            </div>
+        </div>
+
+        <h2>测试结果详情</h2>
+        <table class="results-table">
+            <tr>
+                <th>用例ID</th>
+                <th>用例名称</th>
+                <th>接口ID</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th>响应时间(ms)</th>
+                <th>状态码</th>
+                <th>测试结果</th>
+                <th>错误信息</th>
+                <th>断言结果</th>
+            </tr>
+        
+            <tr>
+                <td>TC002</td>
+                <td>查询用例库</td>
+                <td>API002</td>
+                <td>2025-09-24 16:51:18</td>
+                <td>2025-09-24 16:51:18</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="status-failed">失败</td>
+                <td class="details">执行异常: HTTPConnectionPool(host='test.api.example.com', port=80): Max retries exceeded with url: /mars/caseLibrary/list?page=1&pageSize=10 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023A7A321590>: Failed to resolve 'test.api.example.com' ([Errno 11001] getaddrinfo failed)"))</td>
+                <td class="details"></td>
+            </tr>
+                
+            <tr>
+                <td>TC001 (依赖用例)</td>
+                <td>新增用例库</td>
+                <td>API001</td>
+                <td>2025-09-24 16:51:18</td>
+                <td>2025-09-24 16:51:18</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="status-failed">失败</td>
+                <td class="details">执行异常: HTTPConnectionPool(host='test.api.example.com', port=80): Max retries exceeded with url: /mars/caseLibrary/add (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023A7A39E510>: Failed to resolve 'test.api.example.com' ([Errno 11001] getaddrinfo failed)"))</td>
+                <td class="details"></td>
+            </tr>
+                
+            <tr>
+                <td>TC003</td>
+                <td>删除用例库</td>
+                <td>API003</td>
+                <td>2025-09-24 16:51:18</td>
+                <td></td>
+                <td>0</td>
+                <td>0</td>
+                <td class="status-failed">失败</td>
+                <td class="details">依赖用例 TC001 执行失败</td>
+                <td class="details"></td>
+            </tr>
+                
+        </table>
+    </div>
+</body>
+</html>
+            

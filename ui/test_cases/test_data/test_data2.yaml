@@ -1,0 +1,33 @@
+# 代码扫描任务用例
+test_cases:
+  - tab: "扫描任务"    # 任务类型
+    task_name: "扫描任务-"   # 任务名称
+    plan_name: "扫描方案A-8333"   # 方案名称
+    app_name: "ship-test-service-01"  # 应用名称
+    branch_name: "master"  # 分支名称
+    scan_mode: "全量"   # 扫描模式: "全量" 或 "增量"
+    quality_gates:
+      blocking: '10'
+      serious: ''
+      primary: '30'
+      secondary: '40'
+    add_paths:   # 过滤路径列表
+      - "**/*.js"
+      - "**/*.java"
+    generate_pdf: true   # 是否生成PDF报告: true 或 false
+    task_type: "保存并立即执行"   # 任务类型: "仅保存" 或 "保存并立即执行"
+    is_del: false        # 是否删除任务: true 或 false
+
+  - tab: "扫描任务"    # 任务类型
+    task_name: "扫描任务-"   # 任务名称
+    plan_name: ""   # 方案名称
+    app_name: "ship-test-service-01"  # 应用名称
+    branch_name: "master"  # 分支名称
+    scan_mode: "增量"   # 扫描模式: "全量" 或 "增量"
+    quality_gates:
+    add_paths: # 过滤路径列表
+      - "**/*.js"
+      - "**/*.java"
+    generate_pdf: false   # 是否生成PDF报告: true 或 false
+    task_type: "仅保存"   # 任务类型: "仅保存" 或 "保存并立即执行"
+    is_del: true        # 是否删除任务: true 或 false

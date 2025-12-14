@@ -1,0 +1,26 @@
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:77 打开URL: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:16 已打开页面: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:26 已点击登录按钮
+[32mINFO    [0m utils.logger:login_page.py:36 已点击我知道了按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤1、登录devops - 成功_screenshot_20250928_190008_092c39a9e36f4918a64f7424ce3ab312.png
+[32mINFO    [0m utils.logger:navigation_page.py:58 已点击制品按钮
+[32mINFO    [0m utils.logger:navigation_page.py:65 已点击制品扫描按钮
+[32mINFO    [0m utils.logger:navigation_page.py:84 已切换到tab: 扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤2、导航到制品扫描 - 扫描方案 - 成功_screenshot_20250928_190021_656d5f9af0be4a508f8fff8bd6c2f105.png
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:16 开始创建扫描任务:
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:21 输入扫描方案名称: 扫描方案-9696
+[32mINFO    [0m utils.logger:artifact_scan_plan_creator.py:34 不设为默认方案
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:35 输入扫描方案描述: 自动化创建3
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:48 添加漏洞编号: CVE-2021-44228
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:48 添加漏洞编号: CVE-2021-45046
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:48 添加漏洞编号: CVE-2021-45105
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:49 已添加3个漏洞编号
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:156 上传文件成功: D:\Downloads\谷歌下载\漏洞白名单模板.csv
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:56 已导入漏洞编号
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:65 已点击确认创建扫描方案
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤3、创建扫描方案 - 成功_screenshot_20250928_190032_8fa3afb8cd2543f787e3281707eeb02e.png
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:75 已输入查询条件: 扫描方案-9696
+[32mINFO    [0m utils.logger:artifact_scan_plan_page.py:85 已删除扫描方案
+[32mINFO    [0m utils.logger:artifact_scan_plan_creator.py:45 已删除扫描方案: 扫描方案-9696
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、删除扫描方案 - 成功_screenshot_20250928_190035_4c2882f42622468b8ba42dc30f712a5d.png
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:93 浏览器已成功关闭

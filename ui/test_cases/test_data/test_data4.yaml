@@ -1,0 +1,35 @@
+# 过滤配置用例
+test_cases:
+  - tab: "过滤配置"
+    app_name: "ship-test-war-01"
+    description: "自动化创建1"
+    tab_name: "静态扫描"
+    add_paths:
+      - "**/1.test"
+      - "**/2.test"
+      - "**/3.test"
+    del_paths:  # 要删除的路径
+      - "**/2.test"
+    is_del: false
+
+  - tab: "过滤配置"
+    app_name: "za-dyw-uitesting-demo-02"
+    description: "自动化创建2"
+    tab_name: "单元测试"
+    add_paths:
+      - "**/a.test"
+      - "**/b.test"
+      - "**/c.test"
+    del_paths:  # 要删除的路径
+      - "**/b.test"
+    is_del: true
+
+  - tab: "过滤配置"
+    app_name: "todomvc"
+    description: "自动化创建3"
+    tab_name: "静态扫描"
+    add_paths:
+      - "**/x.test"
+      - "**/y.test"
+    del_paths: []  # 不删除任何路径
+    is_del: false

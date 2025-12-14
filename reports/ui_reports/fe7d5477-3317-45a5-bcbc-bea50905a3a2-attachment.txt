@@ -1,0 +1,19 @@
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:77 打开URL: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:16 已打开页面: http://cube-front.product.poc.za-tech.net/
+[32mINFO    [0m utils.logger:login_page.py:26 已点击登录按钮
+[32mINFO    [0m utils.logger:login_page.py:36 已点击我知道了按钮
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤1、登录devops - 成功_screenshot_20250928_190857_b12698c8b9914e3086776343c89ae119.png
+[32mINFO    [0m utils.logger:navigation_page.py:20 已点击代码按钮
+[32mINFO    [0m utils.logger:navigation_page.py:27 已点击代码扫描按钮
+[32mINFO    [0m utils.logger:navigation_page.py:48 已切换到tab: 单元测试
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤2、导航到代码扫描 - 单元测试 - 成功_screenshot_20250928_190904_ff71b4cb9e4f4c33bddc53317095d934.png
+[32mINFO    [0m utils.logger:unit_test_task_page.py:18 开始创建扫描任务:
+[32mINFO    [0m utils.logger:unit_test_task_page.py:24 已输入任务名称: 单元测试任务-9935
+[32mINFO    [0m utils.logger:elements.py:43 已选择应用: ship-test-service-01
+[32mINFO    [0m utils.logger:elements.py:57 已选择分支: master
+[32mINFO    [0m utils.logger:elements.py:215 已选择扫描模式: 全量
+[32mINFO    [0m utils.logger:elements.py:175 已选择确认按钮: 保存并立即执行
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤3、创建扫描任务 - 成功_screenshot_20250928_190910_d4a1b3a893b64b70a6de04687acf4d10.png
+[33mWARNING [0m utils.logger:unit_test_task_creator.py:43 不删除扫描任务
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:245 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、删除扫描任务 - 成功_screenshot_20250928_190912_d90b90e18c114121b7cbe04a1b980c8c.png
+[32mINFO    [0m utils.logger:sync_playwright_browser_controller.py:93 浏览器已成功关闭

@@ -1,0 +1,31 @@
+# 制品扫描方案用例
+test_cases:
+  - tab: "扫描方案"
+    plan_name: "扫描方案-"
+    description: "自动化创建1"
+    is_default: true
+    vuln_ids:
+      - "CVE-2021-44228"
+      - "CVE-2021-45046"
+      - "CVE-2021-45105"
+    is_import: false
+    is_del: false
+
+  - tab: "扫描方案"
+    plan_name: "扫描方案-"
+    description: "自动化创建2"
+    is_default: false
+    vuln_ids: []
+    is_import: true
+    is_del: false
+
+  - tab: "扫描方案"
+    plan_name: "扫描方案-"
+    description: "自动化创建3"
+    is_default: false
+    vuln_ids:
+      - "CVE-2021-44228"
+      - "CVE-2021-45046"
+      - "CVE-2021-45105"
+    is_import: true
+    is_del: true

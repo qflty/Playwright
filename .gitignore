@@ -35,6 +35,9 @@ ENV/
 # VSCode
 .vscode/
 
+# Lingma
+.lingma/
+
 # Environment files (do NOT commit secrets)
 .env
 test.env

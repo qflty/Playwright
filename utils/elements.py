@@ -1,6 +1,6 @@
 from utils.logger import logger
 from utils.xpath_builder import XPathBuilder
-from config.contants import (
+from config.constants import (
     QUALITY_CONTROL, CODE_SCAN_TASK_QUALITY_BUTTON,
     SERIOUS_LEVEL, HIGH_RISK_LEVEL, MODERATE_RISK_LEVEL, LOW_RISK_LEVEL, UNRATED_LEVEL,
     QUALITY_GATES_BLOCKING, QUALITY_GATES_SERIOUS, QUALITY_GATES_PRIMARY, QUALITY_GATES_SECONDARY, SAVE_ONLY_BUTTON,

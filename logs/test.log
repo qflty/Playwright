@@ -4229,3 +4229,10 @@ AssertionError: 应用配置已存在: ship-test-war-01
 2025-09-28 19:10:00 | utils.logger                   | INFO     | 截图已保存: D:\Pycharm\PythonProjects\Playwright\reports\ui_reports\screenshots\步骤4、删除扫描任务 - 成功_screenshot_20250928_191000_46d4839735034853b69b1af1b7e93b3f.png
 2025-09-28 19:10:00 | utils.logger                   | INFO     | 浏览器已成功关闭
 2025-09-28 19:10:01 | utils.logger                   | INFO     | UI测试执行完毕，退出码: 1
+2025-12-14 13:38:25 | utils.logger                   | INFO     | 日志初始化完成
+2025-12-14 13:38:25 | utils.logger                   | INFO     | 当前使用的配置:
+2025-12-14 13:38:25 | utils.logger                   | INFO     | ui: {'browser_type': 'chromium', 'headless': False, 'default_timeout': 30000, 'screenshot_path': 'reports/ui_reports/screenshots', 'test_case_path': 'ui/test_cases'}
+2025-12-14 13:38:25 | utils.logger                   | INFO     | api: {'base_url': 'http://cube-front.product.poc.za-tech.net/magic/api/mars', 'space_id': '1234', 'timeout': 30, 'retry_times': 3, 'session_token': ''}
+2025-12-14 13:38:25 | utils.logger                   | INFO     | logs: {'log_level': 'INFO', 'log_file': 'logs/test.log', 'log_max_size': 20971520, 'log_backup_count': 5}
+2025-12-14 13:38:25 | utils.logger                   | INFO     | general: {'hub_url': '', 'allure_path': '', 'env': 'dev'}
+2025-12-14 13:38:25 | utils.logger                   | INFO     | 开始执行测试...

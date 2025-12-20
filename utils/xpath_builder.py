@@ -1,4 +1,4 @@
-from config.contants import ADD_VULN_IDS
+from config.constants import ADD_VULN_IDS
 
 
 class XPathBuilder:

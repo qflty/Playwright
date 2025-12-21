@@ -13,7 +13,7 @@ from config.config import config
 
 @pytest.fixture(scope='function')
 def controller():
-    """创建并管理BrowserController实例（浏览器控制器）"""
+    """创建并管理BrowserController实例(浏览器控制器)"""
     c = BrowserController(config.ui.browser_type, headless=config.ui.headless, timeout=config.ui.default_timeout)
     try:
         yield c
